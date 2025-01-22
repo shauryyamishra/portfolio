@@ -1,0 +1,13 @@
+name: Test Workflow
+
+on:
+  push:
+    branches:
+      - main  # Triggers on push to the 'main' branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2004443@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
