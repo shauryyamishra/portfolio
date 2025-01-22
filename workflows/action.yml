@@ -1,15 +1,6 @@
-name: Test Workflow
-
-on:
-  push:
-    branches:
-      - main  # Trigger on push to the 'main' branch
 
 jobs:
   test:
-    runs-on: ubuntu-latest
     steps:
-      - name: "Email Step: 23f2004443@ds.study.iitm.ac.in"
-        run: |
-          echo "Hello, world!"
-          echo "Executed by 23f2004443@ds.study.iitm.ac.in"
+      - name: 23f2004443@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
